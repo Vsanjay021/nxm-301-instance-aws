@@ -7,7 +7,7 @@ app.get("/",(req,res)=>{
 })
 
 app.get("/home",(req,res)=>{
-    res.send("Welcome to server 1")
+    res.send("Welcome to server 2")
 })
 
 app.listen(3000,()=>{
